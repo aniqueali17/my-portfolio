@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Anique Ali - Software Engineering student portfolio focused on software development, machine learning, DevOps, and full-stack projects." />
+    <title>Anique Ali | Software Engineering Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="background-noise"></div>
+
+  <header class="navbar">
+    <a href="#home" class="logo">Anique Ali</a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="./assets/Anique_Ali_Resume_Latest.pdf" target="_blank" class="resume-btn">Resume</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+    <p class="tagline hero-animate delay-1">
+        Software Engineering Student • Full-Stack Developer
+    </p>
+
+    <h1 class="hero-name hero-animate delay-2">Anique Ali</h1>
+
+    <p class="hero-text hero-animate delay-3">
+        Building practical software across machine learning, backend systems,
+        cloud-ready tools, and user-focused applications.
+    </p>
+
+    <div class="hero-buttons hero-animate delay-4">
+        <a href="#projects" class="primary-btn">View Projects</a>
+        <a href="#contact" class="secondary-btn">Get in Touch</a>
+    </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <p class="section-label">About</p>
+      <h2>Building things that solve real problems.</h2>
+
+      <p>
+        Hi, I’m Anique, a Software Engineering student at Carleton University with experience in
+        software development, machine learning, data analysis, and technical communication.
+        I enjoy working on projects that combine practical engineering with clean, user-friendly design.
+      </p>
+
+      <p>
+        My recent work includes a fall detection system, a real-time firefighting drone simulator,
+        a survey management web app, and data/reporting work through my coursework and internship experience.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="section-label">Skills</p>
+      <h2>Languages & Tools</h2>
+
+      <div class="skills-grid">
+        <span>Java</span>
+        <span>Python</span>
+        <span>C</span>
+        <span>SQL</span>
+        <span>JavaScript</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>React</span>
+        <span>Node.js</span>
+        <span>Flask</span>
+        <span>FastAPI</span>
+        <span>Spring Boot</span>
+        <span>Docker</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Linux</span>
+        <span>Azure</span>
+        <span>Power BI</span>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <p class="section-label">Experience</p>
+      <h2>Where I’ve worked</h2>
+
+      <div class="experience-card">
+        <div>
+          <h3>Teaching Assistant</h3>
+          <p class="company">Carleton University</p>
+          <p>
+            Supported students with technical concepts, project feedback, and problem-solving
+            across engineering coursework.
+          </p>
+        </div>
+        <span>Jan 2025 – Present</span>
+      </div>
+
+      <div class="experience-card">
+        <div>
+          <h3>Program Innovation & Reporting Intern</h3>
+          <p class="company">Canadian Air Transport Security Authority</p>
+          <p>
+            Worked with datasets, reporting workflows, BI testing, documentation, and operational analysis.
+          </p>
+        </div>
+        <span>Sep 2025 – Dec 2025</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="section-label">Work</p>
+      <h2>Projects</h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="./assets/fall-detection.png" alt="Fall Detection System Screenshot">
+          <div class="project-content">
+            <h3>Fall Detection System</h3>
+            <p>
+              End-to-end machine learning system for detecting falls, with backend API,
+              frontend workflow, and event logs.
+            </p>
+            <div class="tech-stack">
+              <span>Python</span>
+              <span>ML</span>
+              <span>AI</span>
+              <span>REST API</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/deborahhajayi/SilentGuardian" target="_blank">GitHub</a>
+              <a href="#" target="_blank">Video Demo</a> 
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <!-- <img src="./assets/drone-simulator.png" alt="Firefighting Drone Swarm Simulator Screenshot"> -->
+          <div class="project-content">
+            <h3>Firefighting Drone Simulator</h3>
+            <p>
+              Distributed Java simulator using UDP sockets, state machines, and real-time coordination
+              between drones, scheduler, and fire subsystems.
+            </p>
+            <div class="tech-stack">
+              <span>Java</span>
+              <span>UDP</span>
+              <span>Real-Time</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/nathanbatchelor/SYSC3303" target="_blank">GitHub</a>
+              <!-- <a href="#" target="_blank">Demo Video</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <!-- <img src="./assets/interrupt-simulator.png" alt="Interrupt Simulator Screenshot"> -->
+          <div class="project-content">
+            <h3>Interrupt System Simulator</h3>
+            <p>
+              C-based Linux simulator for analyzing interrupt handling performance using trace files,
+              process scheduling, and file I/O.
+            </p>
+            <div class="tech-stack">
+              <span>C</span>
+              <span>Linux</span>
+              <span>Testing</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/arshjameel/4001_A3" target="_blank">GitHub</a>
+              <!-- <a href="#" target="_blank">Report</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="./assets/survey-system.png" class="img-mid" alt="Survey Management System Screenshot">
+          <div class="project-content">
+            <h3>Survey Management System</h3>
+            <p>
+              Mini-SurveyMonkey style web app with a Spring Boot REST backend, frontend survey flow,
+              database persistence, CI/CD, and integration testing.
+            </p>
+            <div class="tech-stack">
+              <span>Spring Boot</span>
+              <span>JavaScript</span>
+              <span>CI/CD</span>
+              <span>REST API</span>
+              <span>SaaS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/aniqueali17/SpringMVC_Project" target="_blank">GitHub</a>
+              <a href="https://surveymonkey-hshubfhch2gqchbk.eastus2-01.azurewebsites.net" target="_blank">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <p class="section-label">Contact</p>
+      <h2>Let’s connect.</h2>
+      <p>
+        Feel free to reach out, I'd love to hear from you. 
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:aniqueali2018@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/anique-a-456b66175" target="_mylinkedin">LinkedIn</a>
+        <a href="https://github.com/aniqueali17" target="_mygithub">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <footer>
+    <p>© 2026 Anique Ali. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+
+</body>
+</html>
